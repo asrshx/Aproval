@@ -67,7 +67,7 @@ os.system('termux-setup-storage')
 def helpnote():
 	print("%s [=>] FOLLOW ME ON  FB TU KNOW ABOUT UPDATES  :)"%(G))
 	#yahan nichy httsp sy hata kr apna github aproval link dalna
-	subprocess.check_output(["am", "start", "https://raw.githubusercontent.com/asrshx/Aproval/main/Approval.txt"])
+	subprocess.check_output(["am", "start", "https://raw.githubusercontent.com/asrshx/Aproval/45a3cd11cf5f00525d2dfb8b00404684b813fde5/Approval.txt"])
 	#yahan apni facebook id link dalna
 	exit(" [=>] FACEBOOK :  https://www.facebook.com/MrQureshi.xd")
 
@@ -103,7 +103,7 @@ class Main:
 		self.loop = 0
 		try:
 			#yahan pr v apna github link dalna aproval wala
-			plr = requests.get('https://raw.githubusercontent.com/asrshx/Aproval/main/Approval.txt').text
+			plr = requests.get('https://raw.githubusercontent.com/asrshx/Aproval/45a3cd11cf5f00525d2dfb8b00404684b813fde5/Approval.txt').text
 			if basesplit in plr:
 				key = basesplit
 				stat = ("\033[0;97mPREMIUM")
@@ -400,4 +400,5 @@ if len(sys.argv) == 2:
 
 try:Main()
 except Exception as e:exit(str(e))
+
 
